@@ -1,0 +1,53 @@
+.textInputContainer {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.textInputLable {
+  color: black;
+  font-family: PreMedium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.textInputValue {
+  height: 50px;
+  width: 100%;
+  border-style: none;
+  border-bottom: 1px solid #b3b3b3;
+  font-family: PreMedium;
+  font-weight: 500px;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+.emailValidText {
+  font-family: PreMedium;
+  font-size: 13px;
+  color: #ff8989;
+  margin-top: 10px;
+  height: 15px;
+  /* margin-bottom: 20px; */
+}
+
+.forIdDuplicateBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duplicateCheckBtn {
+  display: block;
+  /* margin: 10px; */
+  width: 65px;
+  height: 30px;
+  background: #ff8989;
+  box-shadow: 0px 2px 5px rgba(red, green, blue, 0.25);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: PreMedium;
+  border: none;
+}
