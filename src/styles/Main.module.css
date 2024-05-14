@@ -1,0 +1,47 @@
+@media (min-width: 500px) {
+  .mainHeader {
+    width: 412px !important;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;
+  }
+
+  .flexBT {
+    bottom: 85px !important;
+  }
+}
+
+.mainHeader {
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.mainbody {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.flexBT {
+  background-color: #ff6666;
+  position: fixed;
+  bottom: 85px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  align-items: center;
+}
+
+#plusIcon {
+  margin: auto;
+  display: block;
+}
